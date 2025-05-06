@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+#grid{
+	display:grid;
+	grid-template-rows:124px 124px 124px 124px 124px;
+	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
+	grid-gap:10px 10px;
+}
+
+.grid-item{
+	background-color:green;
+	font-size:30px;
+	color:white;
+	padding:10px;
+	
+}
+
+.item-1{
+	grid-column:span 4/auto;
+}
+.item-2{
+	grid-row:span 4/auto;
+	
+}
+
+.item-4{
+	grid-column:span 2/auto;
+	
+}
+.item-5{
+	grid-column:span 2/auto;
+}
+.item-10{
+	grid-column:span 3/auto;
